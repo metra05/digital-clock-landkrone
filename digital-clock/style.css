@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  /*background-image: url(img/foto3.jpg); /* url("https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");*/
+  /* background-size: cover;*/
+  /*overflow: hidden;  */
+}
+
+.bak {
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/foto2.jpg); /* url("https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");*/
+  background-size: cover;
+}
+
+.bungkus {
+  position: absolute;
+  top: -100;
+}
+
+@keyframes fadeIn{
+  to{opacity: 1;
+  }
+}
+
+.fade {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+h2 {
+  /*text-transform: uppercase;*/
+  width: 320px;
+  height: 40px;
+  background: rgba(106, 90, 205,0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5px;
+  text-align: center;
+  color:white;
+  
+}
+
+.bungkus {
+  font-family: 'Times New Roman', Times, serif;
+  font-display: solid;
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  width: 100px;
+  height: 70px;
+  background: rgba(106, 90, 205,0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgba(0, 0, 139,0.5);
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+  background: rgb(0, 128, 0,0.5);
+}
+
+
+.tanggal {
+  width: 320px;
+  height: 40px;
+  background: rgba(106, 90, 205,0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5px;
+  text-align: center;
+  color:white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+} 
+
+.bawah #weton {
+  bottom: 5px;
+  left: 335px;
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: white;
+  background: rgb(0, 128, 0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
